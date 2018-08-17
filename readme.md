@@ -1,6 +1,6 @@
 Python code for reproduce the figures of the Chapter:
 ====================================================
-Existence, characterization, and simulation of optimal control policies in some classical epidemic models.
+Existence, characterization, and simulation of optimal control policies for a family of epidemic models.
 ----------------------------------------------------------------------------------------------------------
 All examples are sorting according a its folder. Each folder encloses 
 a python class for describe the control problem
