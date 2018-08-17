@@ -2,25 +2,26 @@ from forward_backward_sweep import ForwardBackwardSweepQuadratic
 from forward_backward_sweep import ForwardBackwardSweepLinear
 from matplotlib import rcParams
 
-rcParams['font.family'] = 'sans-serif'
+rcParams['font.family'] = 'DejaVu Sans'
 rcParams['font.sans-serif'] = ['Tahoma']
 params = {
     'figure.titlesize': 10,
-    'axes.titlesize':   10,
-    'axes.labelsize':   10,
-    'font.size':        10,
-    'legend.fontsize':  8,
-    'xtick.labelsize':  8,
-    'ytick.labelsize':  8,
-    'text.usetex':      True
-}
+    'axes.titlesize': 10,
+    'axes.labelsize': 10,
+    'font.size': 10,
+    'legend.fontsize': 8,
+    'xtick.labelsize': 8,
+    'ytick.labelsize': 8,
+    'text.usetex': True
+    }
 rcParams.update(params)
 #
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 import matplotlib as mpl
-import numpy as np
+from matplotlib.ticker import NullFormatter
 
+# import numpy as np
+# import matplotlib.patches as mpatches
 #
 #
 nu = 0.6
@@ -213,8 +214,8 @@ ax4.plot(t, linear_control_cost,
          color='darkblue'
          )
 ax4.set_ylabel('Control Cost')
-ax4.set_title(r'$p=70, R_0=6$', fontsize=10)
-
+ax4.set_title(r'$P=70, R_0=6$', fontsize=10)
+ax4.xaxis.set_major_formatter(NullFormatter())
 ax5.plot(t, quadratic_control_cost_1,
          label=r'Quadratic',
          color='orange')
@@ -224,7 +225,7 @@ ax5.plot(t, linear_control_cost_1,
          )
 ax5.set_ylabel('Control Cost')
 ax5.set_xlabel('Time (years)')
-ax5.set_title(r'$p=110, R_0=3.5$', fontsize=10)
+ax5.set_title(r'$P=110, R_0=3.5$', fontsize=10)
 str_legend = 'Final costs:'
 str_culling_quadratic_cost = 'Quadratic: '
 str_culling_quadratic_cost += "{0:.2f}".format(quadratic_control_cost_1[-1])
@@ -235,15 +236,15 @@ ax5.text(8.4, 140, str_culling_quadratic_cost, style='italic')
 ax5.text(8.25, 60, str_culling_linear_cost, style='italic')
 art = []
 
-lgd = plt.legend(bbox_to_anchor=(0.45, 0.6, 1.0, 1.0),
-                 loc='center right',
-                 # mode='expand',
-                 ncol=1, borderaxespad=0.)
+lgd = plt.legend(bbox_to_anchor=(0.0, -0.65, 1.0, -1.0),
+                 loc='lower left',
+                 mode='expand',
+                 ncol=2, borderaxespad=0.)
 art.append(lgd)
 
 plt.tight_layout()
 fig = mpl.pyplot.gcf()
-fig.set_size_inches(3.5, 5.5 / 1.618)
+fig.set_size_inches(5.5, 5.5 / 1.618)
 fig.savefig(name_file_3,
             additional_artists=art,
             bbox_inches="tight")
