@@ -87,19 +87,20 @@ ax1.plot(t, infected_wcc, '-',
          lw=2,
          alpha=1,
          color='darkgreen',
-         label='Constant control $u_i(t) = 0.2$'
+         label='Infected population with' +
+               ' constant control policy'
          )
 ax1.plot(t, infected, '--',
          ms=3,
          lw=2,
          alpha=1.0,
          color='orange',
-         label='Optimal Controlled SARS')
+         label='Infected population with\\ optimal control policy')
 ax1.set_ylabel(r'$E + Q + I + J$')
 ax1.set_xlabel(r'Time (days)')
 ax1.set_ylim([0.0, 5000])
 art = []
-lgd = ax1.legend(bbox_to_anchor=(-0.2, -.3, 1.2, .102), loc=0,
+lgd = ax1.legend(bbox_to_anchor=(-0.2, -.3, 1.5, .102), loc=0,
                  ncol=1, mode="expand", borderaxespad=0.)
 art.append(lgd)
 
