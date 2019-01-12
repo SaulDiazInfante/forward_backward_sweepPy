@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6dc4fea-5bd1-4f25-9c77-58ba677731e1" name="Default" comment="Commit with legends fixed.">
+      <change beforePath="$PROJECT_DIR$/.idea/LenhartCodePy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LenhartCodePy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SARS/figure_1_sars.eps" beforeDir="false" afterPath="$PROJECT_DIR$/SARS/figure_1_sars.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SARS/figure_2_sars.eps" beforeDir="false" afterPath="$PROJECT_DIR$/SARS/figure_2_sars.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SARS/figure_3_sars.eps" beforeDir="false" afterPath="$PROJECT_DIR$/SARS/figure_3_sars.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/include/python2.7" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LenhartCodePy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>7.5</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="SAUL DIAZ INFANTE VELASCO &lt;sauld@cimat.mx&gt;" />
+        <option value="Saul Diaz-Infnate" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ex02py.py" />
+        <option value="$PROJECT_DIR$/ex02.py" />
+        <option value="$PROJECT_DIR$/ex01.py" />
+        <option value="$PROJECT_DIR$/ex_7.py" />
+        <option value="$PROJECT_DIR$/ex8_1.py" />
+        <option value="$PROJECT_DIR$/ex9_1.py" />
+        <option value="$PROJECT_DIR$/example_4_1.py" />
+        <option value="$PROJECT_DIR$/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/example_4_1Py.py" />
+        <option value="$PROJECT_DIR$/example_2.1(Mold_and_Fungicide)/exampe_2_1Py.py" />
+        <option value="$PROJECT_DIR$/example_2.1(Mold_and_Fungicide)/example_2_1.py" />
+        <option value="$PROJECT_DIR$/example_2.1(Mold_and_Fungicide)/example_2_1Py.py" />
+        <option value="$PROJECT_DIR$/example_3.1(Bacteria)/example_3_1.py" />
+        <option value="$PROJECT_DIR$/example_3.1(Bacteria)/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/example_3.1(Bacteria)/example_3_1Py.py" />
+        <option value="$PROJECT_DIR$/example_9.1(Bounded_Case)/ex9_1.py" />
+        <option value="$PROJECT_DIR$/example_9.1(Bounded_Case)/example_9_1Py.py" />
+        <option value="$PROJECT_DIR$/example_9.1(Bounded_Case)/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/example_9.1(Bounded_Case)/example_9_1.py" />
+        <option value="$PROJECT_DIR$/example_10.1(Cancer)/example_10_1.py" />
+        <option value="$PROJECT_DIR$/example_13.1(Epidemics)/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/example_13.1(Epidemics)/example_13_1.py" />
+        <option value="$PROJECT_DIR$/example_14.1(HIV)/example_14_1.py" />
+        <option value="$PROJECT_DIR$/example_14.1(HIV)/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/example_15_1(BearPopulation)/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/example_15_1(BearPopulation)/example_15_1.py" />
+        <option value="$PROJECT_DIR$/example_15_1(BearPopulation)/example_15_1Py.py" />
+        <option value="$PROJECT_DIR$/Two-StrainTBM/2strain_tbm.py" />
+        <option value="$PROJECT_DIR$/Two-StrainTBM/two_strain_tbm.py" />
+        <option value="$PROJECT_DIR$/Two-StrainTBM/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/SARS/sars.py" />
+        <option value="$PROJECT_DIR$/SARS/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/SIR_logistic/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/SIR_logistic/sir_logistic.py" />
+        <option value="$PROJECT_DIR$/SARS/sir_logistic.py" />
+        <option value="$PROJECT_DIR$/Culling/culling_linear.py" />
+        <option value="$PROJECT_DIR$/Culling/culling_quadratic.py" />
+        <option value="$PROJECT_DIR$/Culling/forward_backward_sweep.py" />
+        <option value="$PROJECT_DIR$/Two-StrainTBM/two_strain_tbmPy.py" />
+        <option value="$PROJECT_DIR$/example_13.1(Epidemics)/example_13_1Py.py" />
+        <option value="$PROJECT_DIR$/example_14.1(HIV)/example_14_1Py.py" />
+        <option value="$PROJECT_DIR$/SIR_logistic/sir_logisticPy.py" />
+        <option value="$PROJECT_DIR$/Culling/cullingPy.py" />
+        <option value="$PROJECT_DIR$/SARS/sarsPy.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="1920" />
+    <option name="height" value="1022" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LenhartCodePy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LenhartCodePy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LenhartCodePy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LenhartCodePy" type="462c0819:PsiDirectoryNode" />
+              <item name="SARS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Culling" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.sarsPy">
+    <configuration name="cullingPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LenhartCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Culling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Culling/cullingPy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example_13_1Py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LenhartCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example_13.1(Epidemics)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_13.1(Epidemics)/example_13_1Py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example_14_1Py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LenhartCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example_14.1(HIV)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example_14.1(HIV)/example_14_1Py.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sarsPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LenhartCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SARS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SARS/sarsPy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sir_logisticPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LenhartCodePy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SIR_logistic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SIR_logistic/sir_logisticPy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.example_13_1Py" />
+      <item itemvalue="Python.example_14_1Py" />
+      <item itemvalue="Python.sarsPy" />
+      <item itemvalue="Python.sir_logisticPy" />
+      <item itemvalue="Python.cullingPy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sarsPy" />
+        <item itemvalue="Python.cullingPy" />
+        <item itemvalue="Python.sir_logisticPy" />
+        <item itemvalue="Python.example_14_1Py" />
+        <item itemvalue="Python.example_13_1Py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6dc4fea-5bd1-4f25-9c77-58ba677731e1" name="Default" comment="" />
+      <created>1524969112245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524969112245</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First version of the python Forward-Backward-Sweep implementation for &#10;the optimal control problems with applications to epidemiology.">
+      <created>1533162918320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533162918320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First version of the python Forward-Backward-Sweep&#10;implementation for the optimal control for a family of&#10;epidemic models.">
+      <created>1534477669213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534477669213</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit with legends fixed.">
+      <created>1534976787231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534976787231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1022" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20106952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893844" weight="0.37745604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929742" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3280543" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31715575" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3280543" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32878152" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159234" side_tool="true" visible="true" weight="0.37868482" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Data View" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13582888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36764705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929742" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3280543" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3280543" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Data View" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="First version of the python Forward-Backward-Sweep implementation for &#10;the optimal control problems with applications to epidemiology." />
+    <MESSAGE value="First version of the python Forward-Backward-Sweep&#10;implementation for the optimal control for a family of&#10;epidemic models." />
+    <MESSAGE value="Commit with legends fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with legends fixed." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>test_1 = np.linalg.norm(u_old - u, 1) * (
+                    np.linalg.norm(u, 1) ** (-1))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>test_1==inf</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>if np.sign(r) == -1.0</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.isinf(sol_jp1)==True</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.isnan(g_xu)==True</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_xu = nan</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>u_old</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.linalg.norm(u_old - u, 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>u</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.linalg.norm(u, 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ex01.py" />
+    <entry file="file://$PROJECT_DIR$/ex9_1.py" />
+    <entry file="file://$PROJECT_DIR$/ex8_1.py" />
+    <entry file="file://$PROJECT_DIR$/ex02.py" />
+    <entry file="file://$PROJECT_DIR$/ex_7.py" />
+    <entry file="file://$PROJECT_DIR$/example_4_1.py" />
+    <entry file="file://$PROJECT_DIR$/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/example_4_1Py.py" />
+    <entry file="file://$PROJECT_DIR$/example_4.1/example_4_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_2.1(Mold_and_Fungicide)/example_2_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_2.1(Mold_and_Fungicide)/example_2_1Py.py" />
+    <entry file="file://$PROJECT_DIR$/example_3.1(Bacteria)/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/example_7.1/ex_7.py" />
+    <entry file="file://$PROJECT_DIR$/example_3.1(Bacteria)/example_3_1Py.py" />
+    <entry file="file://$PROJECT_DIR$/example_3.1(Bacteria)/example_3_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_9.1(Bounded_Case)/ex9_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_9.1(Bounded_Case)/example_9_1Py.py" />
+    <entry file="file://$PROJECT_DIR$/example_9.1(Bounded_Case)/example_9_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_10.1(Cancer)/example_10_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_9.1(Bounded_Case)/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/example_13.1(Epidemics)/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/example_13.1(Epidemics)/example_13_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_14.1(HIV)/example_14_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_14.1(HIV)/forward_backward_sweep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_15_1(BearPopulation)/example_15_1.py" />
+    <entry file="file://$PROJECT_DIR$/example_15_1(BearPopulation)/example_15_1Py.py" />
+    <entry file="file://$PROJECT_DIR$/example_15_1(BearPopulation)/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/Two-StrainTBM/two_strain_tbm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4767">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SARS/sars.py" />
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/matplotlib/legend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SARS/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/SIR_logistic/sir_logistic.py" />
+    <entry file="file://$PROJECT_DIR$/SARS/sir_logistic.py" />
+    <entry file="file://$PROJECT_DIR$/SIR_logistic/forward_backward_sweep.py" />
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="2150" selection-start-line="2150" selection-end-line="2150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Culling/culling_quadratic.py" />
+    <entry file="file://$PROJECT_DIR$/Culling/figure_1_culling.eps" />
+    <entry file="file://$PROJECT_DIR$/Culling/forward_backward_sweep.py" />
+    <entry file="file://$PROJECT_DIR$/Culling/culling_linear.py" />
+    <entry file="file://$PROJECT_DIR$/example_14.1(HIV)/example_14_1Py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_13.1(Epidemics)/example_13_1Py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Two-StrainTBM/forward_backward_sweep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIR_logistic/sir_logisticPy.py" />
+    <entry file="file://$PROJECT_DIR$/Culling/cullingPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Two-StrainTBM/two_strain_tbmPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SARS/figure_1_sars.eps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SARS/sarsPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

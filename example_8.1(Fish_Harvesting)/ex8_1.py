@@ -10,8 +10,8 @@ def g(x_i, u_i):
 
 
 def lambda_function(lambda_i, x_i, u_i):
-    l = p_1 * u_i - 2 * p_2 * (u_i ** 2) * x_i + lambda_i * \
-        (k * m - 2 * k * x_i - u_i)
+    l = np.log(p_1)  +  np.log(u_i - 2) + np.log( p_2) +2.0 * np.log(u_i) + np.log(x_i) \
+        + np.log(lambda_i) + np.log( (k * m - 2 * k * x_i - u_i)
     l = - l
     return l
 
@@ -95,13 +95,13 @@ def forward_backward_sweep(g, lambda_function, u, x_0, lambda_final, h, n_max):
 
 t_0 = 0.0
 t_f = 5.0
-n_max = 10000
+n_max = 100000
 t = np.linspace(t_0, t_f, n_max)
 h = t[2] - t[1]
 #
 x_0 = 0.5
 k = 0.25
-m = 1.0
+m = 10.0
 p_1 = 2.0
 p_2 = 1.0
 c = 1.0
@@ -117,7 +117,6 @@ eps = 0.1
 [x, lambda_, u] = forward_backward_sweep(g, lambda_function, u, x_0,
                                          lambda_final, h, n_max)
 plt.plot(t, u, '-', ms=3, lw=1, alpha=0.7, mfc='blue', label='M=1.0')
-'''
 m = 1.0
 [x, lambda_, u] = forward_backward_sweep(g, lambda_function, u, x_0,
                                          lambda_final, h, n_max)
@@ -125,7 +124,6 @@ plt.plot(t, u, '-', ms=3, lw=1, alpha=0.7, mfc='blue', label='M=10.0')
 plt.plot(t, np.zeros(u.shape[0]), 'k-', lw=1, alpha=0.7,
                      label='M=10.0')
 plt.axis([0, 5.0, -.6, .4])
-'''
 plt.xlabel('Time')
 plt.ylabel('Optimal Control (harvesting proportion)')
 plt.legend(loc=0)
