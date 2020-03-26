@@ -1,9 +1,9 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%BoundingBox: 0 0 399 250
 %%HiResBoundingBox: 0.000000 0.000000 398.446003 249.108386
-%%Creator: GPL Ghostscript 920 (ps2write)
+%%Creator: GPL Ghostscript 926 (ps2write)
 %%LanguageLevel: 2
-%%CreationDate: D:20180907202701-07'00'
+%%CreationDate: D:20200326160114-06'00'
 %%EndComments
 %%BeginProlog
 save
@@ -185,7 +185,9 @@ pop pop
 /ObjectRegistryMaxLength 50000 def
 /ObjectRegistry 10 dict def
 ObjectRegistry
-begin 0 ObjectRegistryMaxLength dict def end
+begin
+0 ObjectRegistryMaxLength dict def
+end
 /CurrentObject null def
 /DoneDocumentStructure false def
 /GraphicState 20 dict begin
@@ -225,31 +227,42 @@ currentdict end readonly def
 currentdict end readonly def
 /1_24_bitshift_1_sub 1 24 bitshift 1 sub def
 /ReadFontProcs 10 dict def
-/GetObject{
+/GetObject
+{
 dup ObjectRegistryMaxLength idiv
-//PDFReader /ObjectRegistry get exch knownget
-{exch knownget}{pop false}ifelse
+//PDFReader/ObjectRegistry get exch knownget{
+exch knownget
+}{
+pop false
+}ifelse
 }bind def
 /PutObject
-{1 index ObjectRegistryMaxLength idiv
-//PDFReader /ObjectRegistry get 1 index knownget{
-exch pop 3 1 roll put}{
-//PDFReader /ObjectRegistry get dup begin
+{
+1 index ObjectRegistryMaxLength idiv
+//PDFReader/ObjectRegistry get 1 index knownget{
+exch pop
+3 1 roll put
+}{
+//PDFReader/ObjectRegistry get dup
+begin
 1 index ObjectRegistryMaxLength dict def
-end exch get 3 1 roll put
+end
+exch get
+3 1 roll put
 }ifelse
 }bind def
 /Register
-{1 index GetObject{
+{
+1 index GetObject{
 dup xcheck{
 4 3 roll pop
 //PDFR_DEBUG{
-(Have a daemon for ) print 2 index ==
+(Have a daemon for )print 2 index ==
 }if
 exec
 }{
 dup null ne{
-mark (The object ) 4 index (is already defined : ) 4 index //error exec
+mark(The object )4 index(is already defined : )4 index//error exec
 }{
 pop
 }ifelse
@@ -261,23 +274,25 @@ exec
 exec
 }ifelse
 PutObject
-} bind def
-/IsRegistered{
+}bind def
+/IsRegistered
+{
 GetObject{
 null ne
 }{
 false
 }ifelse
 }bind def
-/GetRegistered{
+/GetRegistered
+{
 dup GetObject not{
-exch mark exch (Object ) exch ( isn't defined before needed (1).) //error exec
+exch mark exch(Object )exch( isn't defined before needed (1).)//error exec
 }if
 dup xcheck{
-exch mark exch (Object ) exch ( isn't defined before needed (2).) //error exec
+exch mark exch(Object )exch( isn't defined before needed (2).)//error exec
 }{
 dup null eq{
-exch mark exch (Object ) exch ( isn't defined before needed (3).) //error exec
+exch mark exch(Object )exch( isn't defined before needed (3).)//error exec
 }if
 exch pop
 }ifelse
@@ -406,7 +421,10 @@ exch mark exch(An object generation )exch( isn't 0.)//error exec
 //PDFR_DEBUG{
 (endobj )=
 }if
-count 1 eq {pop} {dup type/dicttype eq{
+count 1 eq{
+pop
+}{
+dup type/dicttype eq{
 dup/.endobj_daemon//knownget exec{
 //PDFR_DEBUG{(.endobj_daemon for )print 2 index =}if
 exec
@@ -421,7 +439,8 @@ pop pop
 //RunTypeDaemon exec
 //DoNothing 3 1 roll//Register exec
 }ifelse
-}ifelse}bind def
+}ifelse
+}bind def
 /StoreBlock
 {
 //PDFR_DEBUG{
@@ -576,7 +595,7 @@ dup/Length//CheckLength//ResolveD exec
 //PDFReader/InitialGraphicState get
 //PDFReader/GraphicState get copy pop
 //PDFReader/Operators get begin
-currentfile exch ()/SubFileDecode filter
+currentfile exch()/SubFileDecode filter
 1 index//AppendFilters exec
 cvx mark exch
 exec
@@ -595,7 +614,8 @@ dup/Context get/NumCopies//knownget exec{
 copypage
 }repeat
 }if
-EPS2Write not {showpage} if
+EPS2Write not{showpage}if
+pagesave restore
 }if
 }bind def
 /stream
@@ -722,30 +742,38 @@ exch 3 index sub exch 3 index sub
 }if
 pop pop 3 index 3 index 2 copy
 currentglobal false setglobal 3 1 roll
-currentpagedevice dup /PageSize known{
-/PageSize get aload pop}{
-0 0}ifelse
+currentpagedevice dup/PageSize known{
+/PageSize get aload pop
+}{
+0 0
+}ifelse
 round cvi 2 index round cvi eq
-exch round cvi 3 index round cvi eq and{
-//PDFR_DEBUG{(PageSize matches request) == flush}if
-pop pop}{
-/MediaRequested where {
-//PDFR_DEBUG{(MediaRequested is true, check against new request) == flush}if
+exch round cvi 3 index round cvi eq and
+{
+//PDFR_DEBUG{(PageSize matches request)== flush}if
+pop pop
+}{
+/MediaRequested where{
+//PDFR_DEBUG{(MediaRequested is true, check against new request)== flush}if
 /MediaRequested get aload pop
 round cvi 2 index round cvi eq
 exch round cvi 3 index round cvi eq and
-{//PDFR_DEBUG{(MediaRequested same as current request, ignore) == flush}if pop pop false}
-{//PDFR_DEBUG{(MediaRequested different to current request) == flush}if true}ifelse
+{
+//PDFR_DEBUG{(MediaRequested same as current request, ignore)== flush}if
+pop pop false
 }{
-//PDFR_DEBUG{(No MediaRequested yet) == flush}if
+//PDFR_DEBUG{(MediaRequested different to current request)== flush}if
+true
+}ifelse
+}{
+//PDFR_DEBUG{(No MediaRequested yet)== flush}if
 true
 }ifelse
 {
-//PDFR_DEBUG{(Setting pagesize) == flush}if
+//PDFR_DEBUG{(Setting pagesize)== flush}if
 2 array astore
-dup /MediaRequested exch def
-<< exch /PageSize exch >> setpagedevice
-/pagesave save def
+dup/MediaRequested exch def
+<< exch/PageSize exch >>setpagedevice
 }if
 }ifelse
 userdict/PDFR_InitialGS gstate put
@@ -813,7 +841,8 @@ pop pop
 1 index exch/Context exch put
 dup/ImmediateExec true put
 dup/IsPage true put
-SetPageSize {dup/Context get//SetupPageView exec}if
+SetPageSize{dup/Context get//SetupPageView exec}if
+/pagesave save def
 }bind def
 /FontFileDaemon
 {
@@ -1153,7 +1182,12 @@ LocaArray LocaIndex 3 -1 roll put
 def
 }{
 StringOffset getu16 2 mul
-LocaArray length LocaIndex gt {LocaArray LocaIndex 3 -1 roll put}{pop}ifelse/LocaIndex LocaIndex 1 add def
+LocaArray length LocaIndex gt{
+LocaArray LocaIndex 3 -1 roll put
+}{
+pop
+}ifelse
+/LocaIndex LocaIndex 1 add def
 /StringOffset StringOffset 2 add
 def
 }ifelse
@@ -1581,11 +1615,24 @@ FontMatrix aload pop pop pop exch pop exch pop
 neg exch neg exch rlineto
 closepath stroke
 }bind def
-/SaveResourcesToStack{[//PDFReader/OldResources known{//PDFReader/OldResources get}{null}ifelse
-//PDFReader/CurrentObject get/Context get/Resources get]//PDFReader/OldResources 3 -1 roll put}bind def
-/RestoreResourcesFromStack{//PDFReader/OldResources get dup
+/SaveResourcesToStack
+{
+[
+//PDFReader/OldResources known{
+//PDFReader/OldResources get
+}{
+null
+}ifelse
+//PDFReader/CurrentObject get/Context get/Resources get
+]
+//PDFReader/OldResources 3 -1 roll put
+}bind def
+/RestoreResourcesFromStack
+{
+//PDFReader/OldResources get dup
 0 get//PDFReader/OldResources 3 -1 roll put
-1 get//PDFReader/CurrentObject get/Context get/Resources 3 -1 roll put} bind def
+1 get//PDFReader/CurrentObject get/Context get/Resources 3 -1 roll put
+}bind def
 /BuildChar
 {//PDFR_DEBUG{
 (BuildChar )print dup//=only exec( )print
@@ -1597,8 +1644,22 @@ dup =
 }if
 dup null eq{
 pop//NotDef exec
+}
+{
+CharProcs exch//knownget exec
+{
+currentfont/Font get/Resources//knownget exec{
+exec
+SaveResourcesToStack
+//PDFReader/CurrentObject get/Context get
+/Resources 3 -1 roll put
+//RunDelayedStream exec
+RestoreResourcesFromStack
 }{
-CharProcs exch//knownget exec{currentfont/Font get/Resources//knownget exec{exec SaveResourcesToStack//PDFReader/CurrentObject get/Context get/Resources 3 -1 roll put//RunDelayedStream exec RestoreResourcesFromStack}{//RunDelayedStream exec}ifelse}{
+//RunDelayedStream exec
+}ifelse
+}
+{
 //NotDef exec
 }ifelse
 }ifelse
@@ -1859,14 +1920,14 @@ glyphs code 3 -1 roll put/code code 1 add def
 /i2 exch def
 /scode startc i2 getu16 def
 /ecode endc i2 getu16 def
-ecode lastcode gt {
+ecode lastcode gt{
 /lastcode ecode def
 }if
 }for pop
-firstcode 16#f000 ge lastcode firstcode sub 255 le and {
+firstcode 16#f000 ge lastcode firstcode sub 255 le and{
 lastcode 255 and
 /striptopbyte true def
-} {
+}{
 lastcode
 }ifelse
 1 add
@@ -1895,19 +1956,19 @@ TTFDEBUG{
 }if
 idroff i2 getu16 dup 0 eq{
 pop scode delta add 65535 and 1 ecode delta add 65535 and
-striptopbyte {
+striptopbyte{
 /code scode 255 and def
-} {
+}{
 /code scode def
-} ifelse
+}ifelse
 {putglyph}for
 }{
 /gloff exch 14 nseg2 3 mul add 2 add i2 add add def
-striptopbyte {
+striptopbyte{
 /code scode 255 and def
-} {
+}{
 /code scode def
-} ifelse
+}ifelse
 0 1 ecode scode sub{
 2 mul gloff add etab exch getu16
 dup 0 ne{delta add 65535 and}if putglyph
@@ -2073,6 +2134,37 @@ TTFDEBUG{(post: unknown format )print post 0 getu32 = flush}if[]
 }ifelse
 }ifelse def
 }bind def
+/MacRomanEncoding[
+StandardEncoding 0 39 getinterval aload pop
+/quotesingle
+StandardEncoding 40 56 getinterval aload pop
+/grave
+StandardEncoding 97 31 getinterval aload pop
+/Adieresis/Aring/Ccedilla/Eacute/Ntilde/Odieresis/Udieresis/aacute
+/agrave/acircumflex/adieresis/atilde/aring/ccedilla/eacute/egrave
+/ecircumflex/edieresis/iacute/igrave
+/icircumflex/idieresis/ntilde/oacute
+/ograve/ocircumflex/odieresis/otilde
+/uacute/ugrave/ucircumflex/udieresis
+/dagger/degree/cent/sterling/section/bullet/paragraph/germandbls
+/registered/copyright/trademark/acute/dieresis/.notdef/AE/Oslash
+/.notdef/plusminus/.notdef/.notdef/yen/mu/.notdef/.notdef
+/.notdef/.notdef/.notdef/ordfeminine/ordmasculine/.notdef/ae/oslash
+/questiondown/exclamdown/logicalnot/.notdef
+/florin/.notdef/.notdef/guillemotleft
+/guillemotright/ellipsis/space/Agrave/Atilde/Otilde/OE/oe
+/endash/emdash/quotedblleft/quotedblright
+/quoteleft/quoteright/divide/.notdef
+/ydieresis/Ydieresis/fraction/currency
+/guilsinglleft/guilsinglright/fi/fl
+/daggerdbl/periodcentered/quotesinglbase/quotedblbase
+/perthousand/Acircumflex/Ecircumflex/Aacute
+/Edieresis/Egrave/Iacute/Icircumflex
+/Idieresis/Igrave/Oacute/Ocircumflex
+/.notdef/Ograve/Uacute/Ucircumflex
+/Ugrave/dotlessi/circumflex/tilde
+/macron/breve/dotaccent/ring/cedilla/hungarumlaut/ogonek/caron
+]/Encoding defineresource pop
 /TTParser<<
 /Pos 0
 /post null
@@ -3140,11 +3232,14 @@ dup 3 get//FunctionToProc exec
 pop
 }if
 dup 0 get/Pattern eq{
-dup length 1 gt{dup
-1 get dup type/arraytype eq{
+dup length 1 gt{
+dup 1 get dup type/arraytype eq{
 ResolveColorSpaceArray
 1 index 1 3 -1 roll put
-}{pop}ifelse}if
+}{
+pop
+}ifelse
+}if
 }if
 PDFR_DEBUG{
 (Construcrted color space :)=
@@ -8722,7 +8817,6 @@ endobj
 %%EndProlog
 %%Page: 1 1
 %%BeginPageSetup
-/pagesave save def
 4 0 obj
 <</Type/Page/MediaBox [0 0 398.45 249.11]
 /Parent 3 0 R
@@ -8734,7 +8828,7 @@ endobj
 endobj
 %%EndPageSetup
 5 0 obj
-<</Length 16226>>stream
+<</Length 16218>>stream
 q 0.012 0 0 0.012 0 0 cm
 q
 20 9 m
@@ -9071,47 +9165,47 @@ q
 1 j
 0 0.39209 0 rg
 0 0.39209 0 RG
-q 1.06153 0 0 1.06153 0 0 cm
-4080.31 12981.1 m
-4157.6 14333.5 l
-4209.13 14986.2 l
-4260.66 15470.9 l
-4312.18 15817 l
-4363.71 16051.4 l
-4415.24 16197.7 l
-4466.77 16275.3 l
-4492.54 16293.4 l
-4518.3 16300 l
-4569.83 16284.4 l
-4621.36 16238.5 l
-4698.65 16129.3 l
-4801.7 15936.6 l
-4956.29 15599.2 l
-5523.1 14328 l
-5806.51 13744.4 l
-6089.91 13198.4 l
-6373.32 12687.1 l
-6682.49 12166.3 l
-6991.65 11681.5 l
-7300.82 11230.1 l
-7609.99 10809.9 l
-7919.17 10418.8 l
-8228.33 10054.8 l
-8537.5 9715.95 l
-8872.44 9375.36 l
-9207.37 9060.31 l
-9542.3 8768.88 l
-9877.24 8499.33 l
-10237.9 8231.64 l
-10598.6 7985.55 l
-10985.1 7743.88 l
-11371.6 7523.07 l
-11783.8 7308.51 l
-12196 7113.65 l
-12634 6926.2 l
-13097.8 6747.57 l
-13458.5 6621.45 l
-13458.5 6621.45 l
+q 1.06154 0 0 1.06154 0 0 cm
+4080.3 12981.1 m
+4158.67 14349 l
+4210.91 15005.7 l
+4263.16 15490.7 l
+4315.41 15834.6 l
+4367.65 16065.4 l
+4419.9 16207.3 l
+4472.14 16280.1 l
+4498.27 16295.8 l
+4524.39 16300 l
+4576.63 16279.8 l
+4628.88 16229.7 l
+4707.25 16114.9 l
+4811.74 15915.9 l
+4968.48 15571.4 l
+5490.93 14396.7 l
+5778.29 13800.8 l
+6065.64 13243.7 l
+6352.99 12722.6 l
+6640.34 12235.1 l
+6953.82 11738.9 l
+7267.29 11277.5 l
+7580.77 10848.3 l
+7894.24 10449.2 l
+8207.72 10078.2 l
+8521.19 9733.18 l
+8834.67 9412.41 l
+9174.27 9090.32 l
+9513.86 8792.71 l
+9853.46 8517.74 l
+10219.2 8244.98 l
+10584.9 7994.51 l
+10950.6 7764.53 l
+11342.5 7538.98 l
+11734.3 7333.15 l
+12152.3 7133.42 l
+12596.4 6941.53 l
+13040.5 6768.58 l
+13458.4 6621.43 l
+13458.4 6621.43 l
 S Q
 [ 616.667 266.667 ] 0 d
 166.667 w
@@ -9119,44 +9213,44 @@ S Q
 1 0.646484 0 rg
 1 0.646484 0 RG
 4331.39 13779.9 m
-4358.73 14231.8 l
-4386.09 14505.7 l
-4413.43 14654.6 l
-4440.79 14716.2 l
-4468.13 14717.2 l
-4495.48 14676 l
-4550.18 14514.8 l
-4632.23 14175.1 l
-5151.87 11833.3 l
-5343.32 11106.5 l
-5534.77 10460.9 l
-5698.86 9967.11 l
-5862.96 9523.51 l
-6054.41 9062.74 l
-6245.85 8656.23 l
-6437.3 8297.52 l
-6628.75 7980.88 l
-6820.19 7701.31 l
-7011.64 7454.37 l
-7203.09 7236.18 l
-7394.53 7043.31 l
-7613.33 6850.07 l
-7832.13 6682.09 l
-8050.92 6535.99 l
-8297.07 6394.15 l
-8543.21 6272.75 l
-8816.71 6158.17 l
-9117.55 6053.11 l
-9445.75 5959.8 l
-9801.29 5878.87 l
-10211.5 5805.82 l
-10676.5 5743.05 l
-11223.5 5689.19 l
-11879.9 5644.68 l
-12645.6 5611.8 l
-13520.8 5593 l
-14013.1 5596.67 l
-14259.3 5615.48 l
+4359.12 14236.7 l
+4386.85 14511.3 l
+4414.58 14658.7 l
+4442.31 14717.7 l
+4470.04 14715.5 l
+4497.77 14671.1 l
+4553.23 14503.8 l
+4636.42 14156.2 l
+5135.57 11899.1 l
+5329.68 11155.5 l
+5496.06 10585.2 l
+5662.45 10072.2 l
+5828.83 9611.89 l
+5995.21 9199.09 l
+6161.59 8828.89 l
+6355.71 8444.93 l
+6549.82 8106.66 l
+6743.93 7808.52 l
+6938.05 7545.69 l
+7132.16 7313.88 l
+7326.27 7109.37 l
+7520.39 6928.86 l
+7742.23 6748.28 l
+7964.07 6591.56 l
+8213.64 6439.76 l
+8463.22 6310.16 l
+8740.52 6188.14 l
+9017.83 6085.68 l
+9322.86 5992.41 l
+9655.63 5909.79 l
+10043.9 5833.39 l
+10487.5 5766.36 l
+10986.7 5710.27 l
+11569 5663.49 l
+12290 5624.96 l
+13149.7 5598.56 l
+13870.7 5593.11 l
+14175.7 5606.73 l
 14286.6 5618.96 l
 14286.6 5618.96 l
 S
@@ -9468,28 +9562,27 @@ q
 1 0.646484 0 RG
 q 1.95303 0 0 1.95303 0 0 cm
 11202.7 10039.9 m
-13513.3 10039.7 l
-13555.3 9992.02 l
-13681.3 9879.03 l
-13877.4 9715.26 l
-14087.4 9552.59 l
-14311.5 9391.43 l
-14563.6 9222.02 l
-14899.6 9008.66 l
-15361.8 8715.56 l
-15543.8 8588.07 l
-15669.8 8488.39 l
-15753.9 8411.88 l
-15823.9 8337.05 l
-15879.9 8265.21 l
-15935.9 8176.58 l
-15977.9 8094.03 l
-16019.9 7992.57 l
-16061.9 7867.03 l
-16104 7713.3 l
-16160 7467.22 l
-16188 7333.92 l
-16202 7293.77 l
+13502.9 10039.7 l
+13517.1 10035 l
+13559.7 9987.88 l
+13701.6 9861.48 l
+13900.4 9696.79 l
+14113.4 9533.3 l
+14340.6 9371.3 l
+14596.2 9200.83 l
+14951.1 8976.58 l
+15362.9 8714.81 l
+15533.3 8595.87 l
+15661.1 8495.82 l
+15760.5 8405.36 l
+15831.4 8328.1 l
+15888.2 8253.25 l
+15945 8160.01 l
+15987.6 8072.45 l
+16030.2 7964.23 l
+16072.8 7830.03 l
+16115.4 7666.33 l
+16200.6 7293.77 l
 16300 7293.77 l
 16300 7293.77 l
 S Q
@@ -9739,34 +9832,34 @@ q
 1 0.646484 0 RG
 q 1.95303 0 0 1.95303 0 0 cm
 11202.7 5705.46 m
-11790.8 5705.25 l
-11818.8 5668.33 l
-11888.9 5582.12 l
-12070.9 5377.23 l
-12239 5201.46 l
-12421 5025.28 l
-12603 4862.93 l
-12785.1 4713.34 l
-12967.1 4575.49 l
-13163.2 4439.08 l
-13359.2 4313.99 l
-13541.3 4208.41 l
-13611.3 4177.96 l
-13821.4 4102.77 l
-14157.4 3992.31 l
-14563.6 3869.54 l
-15347.8 3635.38 l
-15543.8 3565.89 l
-15683.8 3506.9 l
-15781.9 3456.11 l
-15851.9 3410.77 l
-15907.9 3365.42 l
-15963.9 3307.81 l
-16019.9 3232.92 l
-16061.9 3162.21 l
-16118 3045.48 l
-16146 2977.28 l
-16160 2959.34 l
+11784.8 5705.26 l
+11799 5700.34 l
+11827.4 5656.52 l
+11912.6 5554.53 l
+12097.2 5348.87 l
+12267.6 5172.79 l
+12438 5009.58 l
+12622.5 4846.31 l
+12807.1 4696.05 l
+12991.7 4557.73 l
+13190.5 4421 l
+13389.3 4295.78 l
+13545.5 4206.33 l
+13616.5 4175.99 l
+13829.4 4100 l
+14156 3992.77 l
+14567.8 3868.3 l
+15348.7 3635.07 l
+15547.5 3564.47 l
+15689.5 3504.26 l
+15788.8 3452.01 l
+15859.8 3404.92 l
+15916.6 3357.36 l
+15973.4 3296.46 l
+16016 3238.82 l
+16058.6 3168.3 l
+16101.2 3083.13 l
+16158 2959.34 l
 16300 2959.34 l
 16300 2959.34 l
 S Q
@@ -9901,8 +9994,8 @@ q
 2.4 0 Td
 [(4)4.03166]TJ
 /R9 11.9552 Tf
-0 1 -1 0 230.992 176.203 Tm
-[(Q)-0.69988(u)0.125469(a)26.3504(r)0.762615(i)-0.862598(n)0.125469(t)1.68795(i)-0.862598(n)0.125469(e)3.38766]TJ
+0 1 -1 0 230.992 174.778 Tm
+[(Q)-0.69988(u)0.125469(a)26.3504(r)0.762615(a)-3.7621(n)0.125469(t)1.68795(i)-0.862598(n)0.125469(e)3.38766]TJ
 /R7 7.97011 Tf
 1 0 0 1 260.433 53.604 Tm
 [(0)-3044.22(1)4.03166(0)4.03166(0)-2521.66(2)4.03166(0)4.03166(0)-2521.53(3)4.03166(0)4.03166(0)4.03166]TJ
@@ -9935,8 +10028,6 @@ Q
 
 endstream
 endobj
-pagesave restore
-%%PageTrailer
 %%Trailer
 end
 cleartomark

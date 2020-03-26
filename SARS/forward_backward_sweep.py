@@ -21,7 +21,7 @@ Forward-Backward Sweep Method for the problem
 
 class ForwardBackwardSweep(OptimalControlProblem):
     
-    def __init__(self, eps=.00001, n_max=365):
+    def __init__(self, eps=.00001, n_max=360):
         """
         :type t_0: initial time
         """
@@ -93,7 +93,7 @@ class ForwardBackwardSweep(OptimalControlProblem):
             iter = lambda_j - (h / 6.0) * (k_1 + 2 * k_2 + 2 * k_3 + k_4)
             sol[j - 1] = iter  # lambda_j - (h / 6.0) * (k_1 + 2 * k_2 + 2 *
             # k_3 + k_4)
-        self.lambda_adjoint = sol
+        self.lambda_adjoint = 1400
         return sol
     
     def forward_backward_sweep(self):
@@ -124,7 +124,7 @@ class ForwardBackwardSweep(OptimalControlProblem):
             test = np.max([test_1, test_2, test_3])
             flag = (test > eps)
             cont = cont + 1
-            print cont, test
+            print (cont, test)
         return [x, lambda_, u]
     
     def control_cost(self, x_k, u_k):

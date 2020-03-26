@@ -107,13 +107,15 @@ art.append(lgd)
 #
 #
 #
+text = 'time, Quarantine, Isolation'
+np.savetxt('sars_optimal_control.dat', np.transpose([t, u[:, 0], u[:, 1]]), header=text, delimiter=',')
 ax2.plot(t, u[:, 0], '-',
          ms=3,
          lw=2,
          alpha=1.0,
          color='orange',
          label=r'$u_1(t)$')
-ax2.set_ylabel(r'Quarintine')
+ax2.set_ylabel(r'Quarantine')
 ax2.set_xlabel(r'Time(days)')
 ax3.plot(t, u[:, 1], '-',
          ms=3,
