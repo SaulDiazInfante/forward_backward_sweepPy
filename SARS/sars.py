@@ -59,7 +59,7 @@ import numpy as np
 
 
 class OptimalControlProblem(object):
-    def __init__(self, t_0=0.0, t_f=365.0, dynamics_dim=6, control_dim=2,
+    def __init__(self, t_0=0.0, t_f=360.0, dynamics_dim=6, control_dim=2,
                  s_zero=12000000, e_zero=1565, q_zero=292,
                  i_zero=695, j_zero=326, r_zero=20
                  ):

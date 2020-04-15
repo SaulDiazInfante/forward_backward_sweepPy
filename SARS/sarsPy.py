@@ -82,6 +82,9 @@ ax3 = plt.subplot2grid((2, 2), (1, 1))
 #
 infected_wcc = x_wcc[:, 1] + x_wcc[:, 2] + x_wcc[:, 3] + x_wcc[:, 4]
 infected = x[:, 1] + x[:, 2] + x[:, 3] + x[:, 4]
+# saving data:
+text = 'time, NonControlledInfectedClasses, ControlledInfectedClasses'
+np.savetxt('InfectedClasses.dat', np.transpose([t, infected_wcc, infected]), header=text, delimiter=',')
 ax1.plot(t, infected_wcc, '-',
          ms=3,
          lw=2,
